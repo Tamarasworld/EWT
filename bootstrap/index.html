@@ -121,19 +121,25 @@
         <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalWindow">Modal Demo</button>
         <div class="modal fade" id="modalWindow">
             <div class="modal-dialog">
-                <div class="moda-content">
+                <div class="modal-content">
                     <div class="modal-header">Contact Us
                     </div>
                     <div class="modal-body">
                         <form>
                             <div class="mb-3">
                                 <label for="recipient-name" class="col-form-label">Recipient:</label>
-                                <input type="text" class="mb-3">
-                                <label for="message" </div>
+                                <input type="text" class="form-control" id="recipient-name" />
+                            </div>
+                            <div class="mb-3">
+                                <label for="message-text" class="col-form-label">Message:</label>
+                                <textarea class="form-control" id="message-text"></textarea>
+                            </div>
                         </form>
                     </div>
+                    <div class="btn btn-outline-secondary" data-bs-dismiss="modal">
+                        close</button>
+                    </div>
                 </div>
-            </div>
 </body>
 
 </html>
